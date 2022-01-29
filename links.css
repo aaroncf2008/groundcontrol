@@ -1,0 +1,37 @@
+
+a {
+border: 2px solid black ;
+padding:2px;
+text-transform: uppercase;
+background-color: black;
+font-weight: bold;
+font-family: courier, serif;
+}
+a.bottom {
+border: 2px solid black ;
+padding:2px;
+text-transform: none;
+}
+a:link {
+color: rgb(67, 118, 196);
+text-decoration: none;
+}
+
+a:visited {
+color: rgb(187, 47, 70);
+
+}
+
+a:hover {
+color: rgb(49, 170, 65);
+background-color: #222222;
+text-decoration: underline;
+}
+
+a:active {
+color: yellow;
+background-color: #222222;
+text-decoration: underline;
+}
+a.nobox {all: unset; }
+a.nobox:hover {opacity: .5}

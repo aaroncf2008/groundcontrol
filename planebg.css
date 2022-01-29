@@ -1,0 +1,24 @@
+
+.background {
+  background-image: url("HHR.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0s linear;
+  width: 100%;
+}
+.bg-box1 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  backdrop-filter: blur(2px);
+}
+div.jetbox {
+  display: inline-block;
+  padding: 2px;
+  border: 2px solid rgb(54, 54, 54);
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  margin: 2;
+  width: fit-content
+}
